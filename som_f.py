@@ -5,6 +5,8 @@ import random
 import pandas as pd
 from scipy.spatial import distance
 import matplotlib.pyplot as plt
+
+
 def mapunits(input_len):
     heuristic_map_units = 20*input_len**0.54321
     return heuristic_map_units
